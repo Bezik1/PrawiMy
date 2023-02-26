@@ -1,0 +1,145 @@
+.canvas-wrapper {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 47%;
+    height: 100vh;
+}
+  
+.about {
+    font-family: Calibri;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 100px;
+    height: 500px;
+    z-index: 2;
+}
+  
+.btn {
+    display: inline-block;
+    outline: 0!important;
+    border: 1px solid transparent;
+    transition: .2s;
+    margin-top: 30px;
+    border-radius: 20px;
+    width: 150px;
+}
+  
+.oc {
+    color: #fff;
+    background: #fe396e;
+}
+  
+.oc:hover {
+    color: #fe396e;
+    border: 1px solid #fe396e;
+    transition: .2s;
+    transform: translateY(-5px);
+    background: transparent;
+}
+  
+.oc-active {
+    color: #fe396e;
+    border: 1px solid #fe396e;
+    transition: .2s;
+    transform: translateY(-5px);
+    background: transparent;
+}
+  
+.about h1 {
+    display: flex;
+}
+  
+.about h1 b {
+    cursor: pointer;
+    transition: .5s;
+    color: #fe396e;
+}
+  
+.about h1 b:hover {
+    cursor: default;
+    -webkit-text-stroke: 2px #fe396e;
+    transition: .5s;
+    color: transparent;
+}
+
+@media screen and (max-width: 1248px) {
+    .about {
+        width: 98vw;
+        padding: 0;
+    }
+
+    .about-scene {
+        padding: 0;
+        width: 98vw;
+    }
+
+    .about .content{
+        width: 350px;
+    }
+
+    .about h1 {
+        width: 98vw;
+        font-size: 2em;
+    }
+
+    .canvas-wrapper {
+        padding: 0;
+        right: 0;
+        height: 75vh;
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about h1 {
+        margin: 20px;
+        margin-right: 0;
+        font-size: 2em;
+        width: 400px;
+        padding: 0;
+    }
+
+    .oc {
+        margin: 20px;
+    }
+
+    .canvas-wrapper {
+        padding: 0;
+        right: 0;
+        height: 75vh;
+        width: 96vw;
+    }
+
+    .about-scene {
+        padding: 0;
+        width: 98vw;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about {
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        margin-top: 650px;
+        background: #171717;
+    }
+
+    .about .content {
+        margin: 20px;
+        font-size: 15px;
+    }
+
+    .text {
+        font-size: 27px;
+    }
+}

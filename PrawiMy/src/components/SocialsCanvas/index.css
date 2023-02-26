@@ -1,0 +1,25 @@
+.social-canvas-container {
+    background: linear-gradient(#fe396e, #f78843);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    animation: morphing 11s infinite reverse;
+    animation-direction: alternate;
+    z-index: 5;
+    width: 400px;
+    height: 500px;
+    margin-right: 220px;
+}
+
+@media screen and (max-width: 1248px) {
+    .social-canvas-container {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .social-canvas-container {
+        width: 250px;
+        height: 400px;
+        margin-left: 220px;
+        margin-top: 50px;
+    }
+}
