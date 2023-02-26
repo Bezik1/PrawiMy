@@ -11,4 +11,4 @@ To build application type `yarn build`
 
 ## :heavy_check_mark: Project Status
 Project deployed successfully \
-Current project: [Link](https://prawimy.netlify.app
+Current project: [Link](https://prawimy.netlify.app)
