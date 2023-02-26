@@ -2,7 +2,7 @@
 Website designed to infrom users about "PrawiMy" - zwzt project. App using react, typescript, gsap react-three/drei
 
 ## :dart: Install Dependencies
-To go to project main folder type `cd PrawiMy` \ 
+To go to project main folder type `cd PrawiMy`\
 Type in console `yarn install`
 
 ## :hammer_and_wrench: Commands
